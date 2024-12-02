@@ -1,0 +1,141 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --a_magenta: #802BB1;
+  --a_dullpurple: #2D283E;
+  --a_lightpurple: #564f6f;
+  --a_darkgray: #4C495D;
+  --a_offwhite: #D1D7E0;
+  --a_red: #EA5260;
+  --a_darkpurple: #261F33;
+}
+
+a {
+  font-weight: 500;
+  color: var(--a_magenta);
+  cursor: pointer;
+}
+
+a:hover {
+  color: var(--a_offwhite);
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  overflow:hidden;
+  color:var(--a_offwhite);
+  background-color: var(--a_dullpurple);
+}
+
+.contentdiv {
+  margin: 7% 16%;
+}
+
+.biglogo {
+  width:50%;
+}
+
+.disp {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.panel {
+  border: 5px solid transparent;
+  border-radius: 30px;
+  background-color: var(--a_darkgray);
+  padding: 1%;
+  margin: 0 30% 5%;
+}
+
+.panel * {
+  margin: 1%
+}
+
+.wider {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.textcenter {
+  text-align: center;
+}
+
+.horizcenter {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lesstoproom {
+  margin-top: 2%;
+}
+
+.registerlink {
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.backlink {
+  text-align: left;
+}
+
+.backButton {
+  background-color: var(--a_red);
+}
+
+input {
+  background-color: var(--a_lightpurple);
+  color: var(--a_offwhite);
+  border-radius: 20px;
+  border: 1px solid transparent;
+  padding: .5em 1em;
+  text-align:center;
+}
+
+input[type='checkbox'] {
+  filter:grayscale();
+}
+
+div input:focus{
+  outline: none;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: var(--a_magenta);
+  color: var(--a_offwhite);
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: var(--a_offwhite);
+
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}

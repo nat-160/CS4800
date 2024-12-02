@@ -1,0 +1,40 @@
+.body {
+    margin: 0;
+    height: 100%;
+    width: 100vw;
+    background-color: #494949;
+}
+.center {
+    margin: 0;
+    height: 100%;
+    width: 100vw;
+    background-color: #494949;
+}
+
+.top {
+    position: fixed;
+    top: 0;
+    margin: 10px;
+}
+.loginContainer {
+    margin: auto;
+    background-color: black;
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+
+}
+.deleteLogo {
+    max-height: 100px;
+    margin: 10px;
+  }
